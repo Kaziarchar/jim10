@@ -49,6 +49,11 @@ body{
     background-repeat: no-repeat;
 }
 @media (min-width: 320px) {
+  #main{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+  }
   .container .ch2{
     margin-top: 70px;
   }
@@ -59,11 +64,22 @@ body{
     margin-top: 47px;
   }
 }
+
 @media (min-width: 992px) {
   .container .ch2{
     margin-top: 18px;
   }
 .sec1{
     margin-top: 0px;
+  }
+  .container{
+    max-width: 100%;
+  }
+  #main{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 85%;
   }
 }
