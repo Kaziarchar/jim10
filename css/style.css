@@ -51,7 +51,7 @@ body{
 @media (min-width: 320px) {
   #main{
     margin: 0%;
-    padding-left: 15px;
+    padding-left: 25px;
     padding-right: 15px;
     max-width: 100%;
   }
