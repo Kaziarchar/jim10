@@ -32,8 +32,26 @@ height: 50px;
       font-size: 22px;
       color: #2d862d;
   }
-  
+  .ch1{
+    z-index: 10;
+    padding-top: 12px;
+    font-size: 18px;
+    color: white;
+  } 
 body{
     background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
+}
+@media (min-width: 320px) {
+  .container .ch2{
+    margin-top: 70px;
+  }
+  .ch1{
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .container .ch2{
+    margin-top: 0;
+  }
 }
