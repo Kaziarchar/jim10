@@ -51,8 +51,8 @@ body{
 @media (min-width: 320px) {
   #main{
     margin: 0%;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 100%;
   }
   .container .ch2{
