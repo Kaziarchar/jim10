@@ -16,6 +16,7 @@
 }
 #para3{
     padding: 0%;
+    overflow: hidden;
 }
 .navbar-brand img{
     height: 100px;
