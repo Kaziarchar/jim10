@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
 .col-lg-2{
     background-color: #339933;
 }
@@ -24,7 +25,12 @@
     border: 5px solid #339933;
     border-radius: 50%;
 }
-
+#sec8{
+    border: 2px solid #fff;
+}
+.sec-img{
+    max-width: 100%;
+}
 @media (min-width: 320px) {
     .col-lg-2{
         padding-left: 0%;
