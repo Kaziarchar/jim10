@@ -4,7 +4,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- @import url("../css/style.css");
+ @import url('../css/style.css');
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -546,7 +546,7 @@ pre code {
 .container-md,
 .container-lg,
 .container-xl {
-  max-width: 100%;
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -851,7 +851,7 @@ pre code {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
