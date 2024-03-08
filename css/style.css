@@ -39,4 +39,87 @@ h2 span{
       "wdth" 100;
       font-size: 30px;
 }
-  
+.wp1{
+    width: 50%;
+    background: #e7e8e9;  
+    margin: 10px 0;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,0.075)!important;
+    border-radius: 0.25rem;
+}
+.wp2{
+    width: 50%;
+}
+.wp5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+        display: block;
+        margin: 0;
+        width: 50%; 
+        padding: 0%; 
+        align-items: center; 
+        display: flex; 
+}
+#kj-1{
+    padding:0;
+}
+
+.sec-m{
+    position: relative;
+    left: 94px;
+    height: 87px;
+    width: 87px;
+    border: 5px solid green;
+    border-radius: 50%;
+}
+ .sec-h{
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-style: normal;
+      font-size: 1.5rem;
+      padding: 8px 21px;
+}
+
+@media (min-width:320px) {
+    .sec-m{
+        position: relative;
+    left: 29px;
+    height: 87px;
+    width: 87px;
+    border: 5px solid green;
+    border-radius: 50%;
+    }
+    .sec-h{
+        font-size: 12px;
+    font-weight: 500;
+    padding: 4px 7px 3px;
+    margin: 0%;
+    
+    }
+    .sec-h-1 {
+        padding: 0;
+    margin-left: 4px;
+    font-size: 9px;
+    }
+    .wp1{
+        padding: 8px 0 0;
+    }
+}
+@media (min-width: 425px) {
+    .wp7{
+        margin-left: 24px;
+    }
+}
+@media (min-width: 768px) {
+    .sec-m{
+       position: relative;
+       left: 99px;
+    }
+    .sec-h{
+        font-size: 27px;
+    }
+    .sec-h-1{
+        font-size: 15px;
+    }
+}
